@@ -537,7 +537,7 @@ tridentctl-protect create snapshotrestore <my_restore_name> \
 Você pode restaurar um snapshot para o namespace original a qualquer momento.
 
 
-NOTE: Se o seu aplicativo usa vários namespaces e esses namespaces possuem PVCs com o mesmo nome, as operações de restauração de snapshot (tanto no local quanto para um novo namespace) não funcionarão corretamente. Todos os volumes restaurados terão os mesmos dados em vez dos dados corretos para cada namespace. Use restauração de backup em vez de restauração de snapshot ou atualize para a versão 26.02 ou posterior, que corrige esse problema.
+NOTE: Se o seu aplicativo usa vários namespaces e esses namespaces possuem PVCs com o mesmo nome, as operações de restauração de snapshot (tanto no local quanto para um novo namespace) não funcionarão corretamente. Todos os volumes restaurados terão os mesmos dados em vez dos dados corretos para cada namespace. Use backup restore em vez de snapshot restore ou atualize para a versão 26.02 ou posterior, que corrige esse problema.
 
 .Antes de começar
 Certifique-se de que o tempo de expiração do token de sessão da AWS seja suficiente para quaisquer operações de restauração do s3 de longa duração. Se o token expirar durante a operação de restauração, a operação pode falhar.

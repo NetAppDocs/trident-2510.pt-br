@@ -6085,5 +6085,5 @@
   <block id="e8ce47501426b8525633fc30daf17d7a" category="sidebar">Personalize os nomes dos volumes</block>
   <block id="f18a50f02f48551895d57b81dd288142" category="sidebar">Compartilhar volumes NFS entre namespaces</block>
   <block id="62486fa65fc31c383ace8989549632ad" category="sidebar">Use instantâneos</block>
-  <block id="f45ace2e96672a5ca55ea6bac48b9865" category="admonition">Se o seu aplicativo usa vários namespaces e esses namespaces possuem PVCs com o mesmo nome, as operações de restauração de snapshot (tanto no local quanto para um novo namespace) não funcionarão corretamente. Todos os volumes restaurados terão os mesmos dados em vez dos dados corretos para cada namespace. Use restauração de backup em vez de restauração de snapshot ou atualize para a versão 26.02 ou posterior, que corrige esse problema.</block>
+  <block id="13ad5ea7a7de5c042f384062c89a068e" category="admonition">Se o seu aplicativo usa vários namespaces e esses namespaces possuem PVCs com o mesmo nome, as operações de restauração de snapshot (tanto no local quanto para um novo namespace) não funcionarão corretamente. Todos os volumes restaurados terão os mesmos dados em vez dos dados corretos para cada namespace. Use backup restore em vez de snapshot restore ou atualize para a versão 26.02 ou posterior, que corrige esse problema.</block>
 </blocks>
