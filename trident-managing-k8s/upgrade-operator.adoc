@@ -21,7 +21,7 @@ Você pode atualizar o Trident usando o operador Trident, seja manualmente ou us
 Você pode atualizar de uma instalação do operador Trident com escopo de cluster para outra instalação do operador Trident com escopo de cluster. Todas as versões do Trident usam um operador com escopo de cluster.
 
 
-NOTE: Para atualizar a partir do Trident instalado usando o operador com escopo de namespace (versões 20.07 a 20.10), use as instruções de atualização para link:../earlier-versions.html["sua versão instalada"] do Trident.
+NOTE: Para atualizar a partir do Trident instalado usando o operador com escopo de namespace (versões 20.07 a 20.10), use as instruções de atualização para a sua versão instalada do Trident.
 
 .Sobre esta tarefa
 Trident fornece um arquivo de pacote que você pode usar para instalar o operador e criar objetos associados para sua versão do Kubernetes.
