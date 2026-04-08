@@ -332,8 +332,11 @@ Executar este comando exibe os backups disponíveis no AppVault, incluindo seus 
 | production1 | wordpress | backup | wordpress-bkup-2| 2024-10-30 08:37:40 (UTC)| backuppath2 |
 +-------------+-----------+--------+-----------------+--------------------------+-------------+
 ----
-. Restaure o aplicativo no cluster de destino usando o nome AppVault e o caminho do arquivo: OBSERVAÇÃO: ao usar uma CR, certifique-se de que o namespace destinado à restauração do aplicativo exista no cluster de destino.
+. Restaure o aplicativo no cluster de destino usando o nome AppVault e o caminho do arquivo:
 
+
+
+NOTE: Ao usar uma CR, certifique-se de que o namespace destinado à restauração do aplicativo exista no cluster de destino.
 
 [role="tabbed-block"]
 ====

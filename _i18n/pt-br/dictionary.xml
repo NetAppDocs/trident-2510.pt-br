@@ -6063,6 +6063,7 @@
   <block id="43da129a49cd39591bce7ddda6f0dc82" category="list-text">Verifique se o AppVault CR existe no cluster de destino usando o plugin Trident Protect CLI:</block>
   <block id="ad00af2208d1570d2b6ca4c83cbbb61e" category="admonition">Se o AppVault CR não existir no cluster de destino, crie-o seguindo os passos em <block ref="5f86f4618afc0bb72a8693bca73e9890" category="inline-link-macro-rx"></block>.</block>
   <block id="b104127df6a8992a1e7bad2dbd1aad7c" category="list-text">Visualize o conteúdo do backup disponível do AppVault no cluster de destino e anote <block ref="bf8f430bcd54ced8b34c5fd6d4b41d3c" prefix=" " category="inline-code"></block> do backup que deseja restaurar:</block>
-  <block id="3f170f167274ed66c26965c774034d2e" category="list-text">Restaure o aplicativo no cluster de destino usando o nome AppVault e o caminho do arquivo: OBSERVAÇÃO: ao usar uma CR, certifique-se de que o namespace destinado à restauração do aplicativo exista no cluster de destino.</block>
   <block id="5566fd919e0cd2daefbf9fbd55ec09e3" category="list-text">*spec.appArchivePath*: (_Obrigatório_) O caminho dentro do AppVault onde o conteúdo do backup está armazenado. Use o comando da etapa 2 para visualizar o conteúdo do backup e encontrar <block ref="bf8f430bcd54ced8b34c5fd6d4b41d3c" prefix=" " category="inline-code"></block> o backup que deseja restaurar.</block>
+  <block id="053aba80de03f3fdf626d1c858342330" category="list-text">Restaure o aplicativo no cluster de destino usando o nome AppVault e o caminho do arquivo:</block>
+  <block id="a1d573518c6d239a09cfdd19537e0944" category="admonition">Ao usar uma CR, certifique-se de que o namespace destinado à restauração do aplicativo exista no cluster de destino.</block>
 </blocks>
