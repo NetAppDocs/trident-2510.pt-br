@@ -82,6 +82,9 @@ link:https://docs.netapp.com/us-en/trident-2301/index.html["23,01"^]
 | -- | -- | Janeiro de 2026 
 |===
 
+NOTE: Para obter o cronograma de suporte da versão mais recente do Trident, consulte o  https://docs.netapp.com/us-en/trident/get-help.html#trident-support-lifecycle["Página do ciclo de vida do suporte"].
+
+
 
 == Autoatendimento
 
