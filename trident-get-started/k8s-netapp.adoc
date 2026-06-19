@@ -33,7 +33,7 @@ NOTE: Trident é compatível com todos os modelos de implantação ONTAP mencion
 
 == Cloud Volumes ONTAP
 
-http://cloud.netapp.com/ontap-cloud?utm_source=GitHub&utm_campaign=Trident["Cloud Volumes ONTAP"^] é um dispositivo de storage somente de software que executa o software de gerenciamento de dados ONTAP na nuvem. Você pode usar Cloud Volumes ONTAP para cargas de trabalho de produção, recuperação de desastres, DevOps, serviço de compartilhamento de arquivos e gerenciamento de banco de dados. Ele estende o storage corporativo para a nuvem, oferecendo eficiências de storage, alta disponibilidade, replicação de dados, tiering de dados e consistência de aplicativos.
+Cloud Volumes ONTAP é um dispositivo de storage somente de software que executa o software de gerenciamento de dados ONTAP na nuvem. Você pode usar Cloud Volumes ONTAP para cargas de trabalho de produção, recuperação de desastres, DevOps, compartilhamento de arquivos e gerenciamento de banco de dados. Ele estende o armazenamento corporativo para a nuvem, oferecendo eficiências de armazenamento, alta disponibilidade, replicação de dados, hierarquização de dados e consistência de aplicativos.
 
 
 
@@ -65,4 +65,4 @@ https://azure.microsoft.com/en-us/services/netapp/["Azure NetApp Files"^] é um 
 
 == Google Cloud NetApp Volumes
 
-https://cloud.netapp.com/cloud-volumes-service-for-gcp?utm_source=GitHub&utm_campaign=Trident["Google Cloud NetApp Volumes"^] é um serviço de arquivos nativo da nuvem que fornece volumes NAS sobre NFS com desempenho all-flash. Esse serviço permite que qualquer carga de trabalho, incluindo aplicativos legados, seja executada na nuvem do GCP. Ele oferece um serviço totalmente gerenciado que proporciona alto desempenho consistente, clonagem instantânea, proteção de dados e acesso seguro a instâncias do Google Compute Engine (GCE).
+https://www.netapp.com/google-cloud/netapp-volumes/["Google Cloud NetApp Volumes"^]é um serviço de arquivos cloud native que fornece volumes NAS sobre NFS com desempenho all-flash. Esse serviço permite que qualquer carga de trabalho, incluindo aplicativos legados, seja executada na nuvem do GCP. Ele oferece um serviço gerenciado que proporciona alto desempenho consistente, clonagem instantânea, proteção de dados e acesso seguro a instâncias do Google Compute Engine (GCE).

@@ -170,6 +170,5 @@ Bandeiras:
 
 Para saber mais sobre acesso a volumes entre namespaces:
 
-* Visite link:https://cloud.netapp.com/blog/astra-blg-sharing-volumes-between-namespaces-say-hello-to-cross-namespace-volume-access["Compartilhamento de volumes entre namespaces: diga olá ao acesso a volumes entre namespaces"^].
 * Veja a demonstração em link:https://media.netapp.com/page/9071d19d-1438-5ed3-a7aa-ea4d73c28b7f/solutions-products["NetAppTV"^].
 
