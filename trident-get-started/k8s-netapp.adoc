@@ -59,7 +59,7 @@ NetApp HCI é totalmente compatível com Trident. Trident pode provisionar e ger
 
 == Azure NetApp Files
 
-https://azure.microsoft.com/en-us/services/netapp/["Azure NetApp Files"^] é um serviço de compartilhamento de arquivos do Azure de nível empresarial, desenvolvido com tecnologia NetApp. Você pode executar suas cargas de trabalho baseadas em arquivos mais exigentes nativamente no Azure, com o desempenho e o gerenciamento de rich data que você espera da NetApp.
+https://azure.microsoft.com/en-us/products/netapp/["Azure NetApp Files"^] é um serviço de compartilhamento de arquivos do Azure de nível empresarial, desenvolvido com tecnologia NetApp. Você pode executar suas cargas de trabalho baseadas em arquivos mais exigentes nativamente no Azure, com o desempenho e o gerenciamento de rich data que você espera da NetApp.
 
 
 
