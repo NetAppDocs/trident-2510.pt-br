@@ -26,6 +26,7 @@ Você pode usar Trident Protect para restaurar seu aplicativo a partir de um sna
 ====
 
 
+[[restore-from-a-backup-to-a-different-namespace]]
 == Restaurar a partir de um backup para um namespace diferente
 
 Ao restaurar um backup para um namespace diferente usando um BackupRestore CR, Trident Protect restaura o aplicativo em um novo namespace e cria um CR de aplicativo para o aplicativo restaurado. Para proteger o aplicativo restaurado, crie backups ou snapshots sob demanda, ou estabeleça um cronograma de proteção.
@@ -152,6 +153,7 @@ tridentctl-protect create backuprestore <my_restore_name> \
 ====
 
 
+[[restore-from-a-backup-to-the-original-namespace]]
 == Restaurar de um backup para o namespace original
 
 Você pode restaurar um backup para o namespace original a qualquer momento.
@@ -271,6 +273,7 @@ tridentctl-protect create backupinplacerestore <my_restore_name> \
 ====
 
 
+[[restore-from-a-backup-to-a-different-cluster]]
 == Restaurar de um backup para um cluster diferente
 
 Você pode restaurar um backup em um cluster diferente se houver um problema com o cluster original.
@@ -395,6 +398,7 @@ tridentctl-protect create backuprestore <restore_name> \
 ====
 
 
+[[restore-from-a-snapshot-to-a-different-namespace]]
 == Restaurar a partir de um Snapshot para um namespace diferente
 
 Você pode restaurar dados de um snapshot usando um arquivo de recurso personalizado (CR) para um namespace diferente ou para o namespace de origem original. Ao restaurar um snapshot para um namespace diferente usando um SnapshotRestore CR, Trident Protect restaura o aplicativo em um novo namespace e cria um CR de aplicativo para o aplicativo restaurado. Para proteger o aplicativo restaurado, crie backups ou snapshots sob demanda, ou estabeleça um agendamento de proteção.
@@ -526,6 +530,7 @@ tridentctl-protect create snapshotrestore <my_restore_name> \
 ====
 
 
+[[restore-from-a-snapshot-to-the-original-namespace]]
 == Restaurar de um Snapshot para o namespace original
 
 Você pode restaurar um snapshot para o namespace original a qualquer momento.
@@ -642,6 +647,7 @@ tridentctl-protect create snapshotinplacerestore <my_restore_name> \
 ====
 
 
+[[check-the-status-of-a-restore-operation]]
 == Verifique o status de uma operação de restauração
 
 Você pode usar a linha de comando para verificar o status de uma operação de restauração que está em andamento, foi concluída ou falhou.
